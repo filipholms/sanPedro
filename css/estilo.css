@@ -1,0 +1,102 @@
+body{
+	font-size: 18px;
+	background: url(images/llama.jpg) no-repeat fixed;
+	background-size: 100% 38em;
+}
+section{
+}
+section article{
+	position: relative;
+}
+section article:first-child{
+	background: white; 
+	padding: 8em;
+	opacity: 0.8;
+
+}
+section article:last-child{
+	background: #BF5517;
+	padding: 2em;
+	opacity: 0.9;
+}
+
+
+
+section article:last-child .seccion{
+	box-shadow: 5px 4px 4px #222;
+	background: #872510;
+	padding: 1em;
+	margin-right: 3em;
+	width: 26%;
+	display: inline-block;
+	border-radius: .5em;
+	color: #CBCDDA;
+	-webkit-transition: 1s;
+}
+section article:last-child .seccion:hover{
+	box-shadow: 8px 4px 9px #222;
+	background: #F26E22;
+}
+
+section article:last-child .seccion figure{
+	text-align: center;
+	
+}
+section article:last-child .seccion figure img{
+
+	width: 100%;
+	height: 10em;
+}
+section article:last-child .seccion h3{
+	text-decoration: underline;
+	text-align: center; 
+}
+section article:last-child .seccion p{
+	text-align: center;
+	font-size: .9em;
+	
+}
+
+
+footer{
+	background: #111;
+	padding: 6em;
+	text-align: center;
+}
+header{
+	position: relative;
+	background: url(images/laguna.jpg) no-repeat center;
+	padding-bottom: 30em;
+    background-size: cover;
+}
+nav{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5f0202;
+    z-index: 1;
+}
+nav ul{
+	position: absolute;
+	right: 25%;
+	top: 20%;
+}
+nav ul li{
+
+	list-style: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+nav ul li a{
+
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+	-webkit-transition: .23s;
+}
+nav ul  li a:hover{
+
+	color: rgba(155,155,155,0.8);
+}
