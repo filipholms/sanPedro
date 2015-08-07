@@ -3,29 +3,74 @@ body{
 	background: url(images/llama.jpg) no-repeat fixed;
 	background-size: 100% 38em;
 }
-section{
-}
+
 section article{
 	position: relative;
 }
 section article:first-child{
 	background: white; 
-	padding: 8em;
-	opacity: 0.8;
+	padding-bottom: 30em;
+	opacity: 0.9;
 
+}
+
+section article:first-child .info_principal{
+	position: absolute;
+	left: 8em;
+	top: 4em;
+}
+section article:first-child .info_principal h3{
+	margin-top: 0;
+	text-decoration: underline;
+}
+section article:first-child .info_principal p{
+	width: 24em;
+}
+section article:first-child .info_principal2{
+	position: absolute;
+	right: 8em;
+	top: 4em;
+}
+section article:first-child .info_principal2 h3{
+	margin-top: 0;
+	text-decoration: underline;
+}
+section article:first-child .info_principal2 p{
+	width: 24em;
+}
+section article:first-child .nube{
+	margin: 0;
+	position: absolute;
+	left: 12em;
+	top: 4em;
+	width: 22em;
+	height: 22em;
+}
+section article:first-child .nube img{
+	width: 100%;
+	height: 100%;
+}
+section article:first-child figure{
+	margin: 0;
+	position: absolute;
+	right: 12em;
+	top: 4em;	
+	width: 22em;
+	height: 22em;
+}
+section article:first-child figure img{
+	width: 100%;
+	height: 100%;
 }
 section article:last-child{
 	background: #BF5517;
 	padding: 2em;
 	opacity: 0.9;
 }
-
-
-
 section article:last-child .seccion{
 	box-shadow: 5px 4px 4px #222;
 	background: #872510;
-	padding: 1em;
+	padding: .2em;
 	margin-right: 3em;
 	width: 26%;
 	display: inline-block;
@@ -37,13 +82,11 @@ section article:last-child .seccion:hover{
 	box-shadow: 8px 4px 9px #222;
 	background: #F26E22;
 }
-
 section article:last-child .seccion figure{
 	text-align: center;
 	
 }
 section article:last-child .seccion figure img{
-
 	width: 100%;
 	height: 10em;
 }
@@ -56,8 +99,6 @@ section article:last-child .seccion p{
 	font-size: .9em;
 	
 }
-
-
 footer{
 	background: #111;
 	padding: 6em;
@@ -65,17 +106,44 @@ footer{
 }
 header{
 	position: relative;
-	background: url(images/laguna.jpg) no-repeat center;
-	padding-bottom: 30em;
-    background-size: cover;
+	padding: 16em;
+	background: black;
+}
+header img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 }
 nav{
-	position: fixed;
+	position: relative;
+	padding: 2em 0;
     top: 0;
     left: 0;
     width: 100%;
     background: #5f0202;
     z-index: 1;
+}
+nav .logo{
+	margin: 0;
+	position: absolute;
+	top: 1em;
+	left: 2em;
+	z-index: 4;
+}
+nav .logo img{
+	width: 6em;
+}
+nav .nombre{
+	font-family: 'Indie Flower', cursive;
+	font-size: 1em;
+	position: absolute;
+	top: .8em;
+	left: 8em;
+	color: white;
+
+
 }
 nav ul{
 	position: absolute;
@@ -99,4 +167,39 @@ nav ul li a{
 nav ul  li a:hover{
 
 	color: rgba(155,155,155,0.8);
+}
+
+
+section .tradicion:last-child{
+	background: white;
+	padding-bottom: 6em;
+	opacity: 0.6;
+	text-align: center;
+}
+
+section .tradicion:last-child .circulos{
+	width: 18em;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 18em;
+	overflow: hidden;
+
+}
+section .tradicion:last-child .circulos p{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+}
+section .tradicion:last-child .circulos figure{
+	position: absolute;
+	left: 25%;
+	top: .6em;
+	width: 8em;
+	height: 8em;
+}
+section .tradicion:last-child .circulos figure img{
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
 }
